@@ -1,0 +1,183 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("https://img.freepik.com/free-vector/candy-pastel-color-pattern-design_23-2150623228.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main{
+    height: 100vh; width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    backdrop-filter: blur(3px);
+}
+
+
+.div1{
+    border: 1px solid white;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(0, 0, 0, .3);
+    display: normal;
+
+}
+
+.div1 p{
+    font-size: 28px;
+    color: white;
+    font-family: "oswald";
+}
+
+.playBtn{
+    background-color: slateblue;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px white;
+    cursor: pointer;
+}
+
+.div2{
+    height: 350px;
+    width: 600px;
+    background: rgba(0, 0, 0, .3);
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+
+}
+
+.div2 p{
+    font-size: 28px;
+    color: white;
+    font-family: "oswald";
+}
+
+.playerCard{
+    height: 250px; width: 500px;
+    display: flex; align-items: center; justify-content: space-around;
+}
+
+.card1{
+    background-image: url("https://i.tribune.com.pk/media/images/ishowspeed1719327140-0/ishowspeed1719327140-0.jpg");
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+    height: 200px; width: 200px; cursor: pointer;
+    border-radius: 5px; border: 1px solid white;
+}
+
+.card2{
+    background-image: url("https://c.files.bbci.co.uk/4155/live/fd33fdb0-b006-11ef-a88f-9db5c484bac5.jpg");
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+    height: 200px; width: 200px; cursor: pointer;
+    border-radius: 5px; border: 1px solid white;
+}
+
+
+.div3{
+    display: none;
+    height: 350px;
+    width: 600px;
+    background: rgba(0, 0, 0, .3);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.div3txt{
+    color: white;
+    font-size: 28px;
+    font-family: "oswald";
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+.div3btn{
+    background-color: slateblue;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px white;
+    cursor: pointer;
+}
+
+
+.div4{
+    display: none;
+    height: 350px;
+    width: 600px;
+    background: rgba(0, 0, 0, .3);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div4txt{
+    color: white;
+    font-size: 28px;
+    font-family: "oswald";
+    text-shadow: 1px 1px 2px black;
+}
+
+.opt_btn{
+    background-color: slateblue;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px white;
+    cursor: pointer;
+}
+
+.div5{
+    display: none;
+    height: 350px;
+    width: 600px;
+    background: rgba(0, 0, 0, .3);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div5txt{
+    color: white;
+    font-size: 28px;
+    font-family: "oswald";
+    text-shadow: 1px 1px 2px black;
+}
